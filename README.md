@@ -1,12 +1,50 @@
-# React + Vite
+#Crypto Price Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Crypto Tracker App is a real-time cryptocurrency price tracking application built using React, Redux Toolkit, and WebSockets. It fetches live price updates from Binance WebSocket.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-time price updates from Binance WebSocket.
 
-## Expanding the ESLint configuration
+Responsive and interactive UI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack
+
+Frontend: React, Redux Toolkit, Tailwind CSS
+
+Data Fetching: Binance WebSocket
+
+State Management: Redux Toolkit
+
+Styling: Tailwind CSS
+
+Deployment: Vercel
+
+
+Setup Instructions
+
+Prerequisites
+
+Node.js (v18 or above)
+
+npm or yarn
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/komal03singh/Real-Time-Crypto-Tracker.git
+
+cd crypto-tracker
+
+Install dependencies:
+
+npm install
+
+Running the App
+
+npm run dev
+
+Build for Production
+
+npm run build
